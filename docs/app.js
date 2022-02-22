@@ -10,7 +10,7 @@ function openTab(tabName) {
 
 function yearCountEvaluation() {
     let sum = 0;
-    let countEvaluation = prompt("Брой оценки: "); //2
+    let countEvaluation = prompt("Брой оценки: ");
     for (var i = 0; i < countEvaluation; i++) {
         let evaluations = prompt("Напишете си оценките! ");
         sum += parseFloat(evaluations);
